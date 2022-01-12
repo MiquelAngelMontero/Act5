@@ -33,6 +33,8 @@ public class Act11 {
 		case "Domingo":
 			JOptionPane.showMessageDialog(null, dia+" no es un día laboral");
 			break;
+		default:
+			JOptionPane.showMessageDialog(null, "No has introducido el dia correctamente");
 		
 		}
 
